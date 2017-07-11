@@ -21,8 +21,18 @@ RSpec.describe User, type: :model do
     expect(@user).to_not be_valid
   end
 
+  it "should not be valid with an incorrectly formatted email" do
+    @user.email = "not_an_email"
+    expect(@user).to_not be_valid
+  end
+
   it "should not be valid without a password" do
     @user.password = nil
+    expect(@user).to_not be_valid
+  end
+
+  it "should not be valid with a short password" do
+    @user.password = "a"
     expect(@user).to_not be_valid
   end
 
