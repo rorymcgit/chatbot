@@ -8,12 +8,9 @@
   </head>
   <body>
     <div class="container">
-      <% if user_signed_in? %>
-        <li>
-          <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
-        </li>
-      <% end %>
-
+      <ul class="hmenu">
+        <%= render 'devise/menu/registration_items' %>
+      </ul>
       <%= yield %>
     </div>
   </body>
