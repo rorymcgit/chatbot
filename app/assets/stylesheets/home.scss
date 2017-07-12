@@ -181,16 +181,11 @@ ul.hmenu li {
 .chat_area li:last-child {
   padding-bottom: 10px;
 }
-.message_write {
+.select_msg {
   background: #f5f3f3 none repeat scroll 0 0;
   float: left;
   padding: 15px;
   width: 100%;
-}
-
-.message_write textarea.form-control {
-  height: 70px;
-  padding: 10px;
 }
 .chat_bottom {
   float: left;

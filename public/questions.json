@@ -1,8 +1,8 @@
 {
-  "Greeting": "Hello Bot",
+  "greeting": "Hello Bot",
   "questionTree":
     {
-    "question": "Which route to go?",
+    "question": "Hello Human, you are in a dark maze. Which route will you take?",
     "answers": ["Left", "Right", "Straight"],
     "failAnswer": 2,
     "left": {
