@@ -15,7 +15,7 @@ This choice-based chat game allows the user to select an answer from a number of
 - Once signed up/in, send the first pre-written message to the bot
 - After the bot has typed out its response, you will be presented with several different message choices
 
-- `rspec` to run tests
+- `$ rspec` to run tests
 
 ![](https://github.com/rorymcgit/chatbot/blob/master/firstQuestion_grab.png)
 
