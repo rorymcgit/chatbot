@@ -36,7 +36,7 @@ I drew my question/answer tree, along with several entity relationship diagrams 
 
 I was relatively unfamiliar with Rails, having only used it once in the past for a few days. In the allocated time frame I was doubtful I would complete all the tasks, and therefore set out an MVP to reach by plotting some user stories. The MVP of course does not include all the required specs. I just about reached my MVP, although the Javascript written in the last few hours is not clean and needs a refactor. The question/answer tree only goes one node deep too. The user stories are below.
 
-MVP:
+#### MVP:
 ```
 As a new user, 
 So I can use the site,
@@ -63,7 +63,7 @@ So I can keep playing,
 I want to select from multiple answers and send them back.
 ```
 
-Some high-level stories for V2 (future)
+#### Some high-level stories for V2 (future):
 ```
 As a user in the chat,
 So the game eventually ends,
