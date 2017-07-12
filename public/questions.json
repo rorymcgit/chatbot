@@ -1,5 +1,5 @@
 {
-  "greeting": "Hello Bot",
+  "greeting": "Hello Bot, let's begin the game",
   "questionTree":
     {
     "question": "Hello Human, you are in a dark maze. Which route will you take?",
