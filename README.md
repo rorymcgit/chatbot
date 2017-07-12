@@ -34,7 +34,9 @@ I spent a large amount of time planning, in particular around the architecture o
 
 I drew my question/answer tree, along with several entity relationship diagrams during planning which I would be keen to talk through.
 
-I was relatively unfamiliar with Rails, having only used it once in the past for a few days. In the allocated time frame I was doubtful I would complete all the tasks, and therefore set out an MVP to reach by plotting some user stories. The MVP of course does not include all the required specs. I just about reached my MVP, although the Javascript written in the last few hours is not clean and needs a refactor. The question/answer tree only goes one node deep too. The user stories are below.
+I was relatively unfamiliar with Rails, having only used it once in the past for a few days. This meant I spent some of the time learning how to use it for this purpose, along with any gems I used such as FactoryGirl for testing.
+
+In the allocated time frame I was doubtful I would complete all the tasks, and therefore set out an MVP to reach by plotting some user stories. The MVP of course does not include all the required specs. I just about reached my MVP, although the Javascript written in the last few hours is not clean and needs a refactor. The question/answer tree only goes one node deep too. The user stories are below.
 
 #### MVP:
 ```
