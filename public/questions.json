@@ -7,7 +7,7 @@
     "failAnswer": 2,
     "left": {
       "question": "You turn left and come across a mutant geography teacher. He shouts: 'To proceed, answer me this question... \n Lusaka is the capital of what country?''",
-      "answers": ["Uganda", "Malawi", "Zambia", "Lesotho"],
+      "answers": ["Lesotho", "Malawi", "Zambia"],
       "passAnswer": 2
     },
     "right": {
