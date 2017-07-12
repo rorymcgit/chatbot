@@ -1,8 +1,8 @@
 {
-  "greeting": "Hello Bot, let's begin the game",
+  "greeting": "Hello Bot, let's begin the game.",
   "questionTree":
     {
-    "question": "Hello Human. You are in a dark maze. You can either turn left, right or head straight on...",
+    "question": "Hello Human. You are in a dark maze. You can either turn left, turn right or head straight on...",
     "answers": ["Left", "Right", "Straight"],
     "failAnswer": 2,
     "left": {
