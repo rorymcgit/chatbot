@@ -2,20 +2,18 @@
   "greeting": "Hello Bot, let's begin the game",
   "questionTree":
     {
-    "question": "Hello Human, you are in a dark maze. Which route will you take?",
+    "question": "Hello Human. You are in a dark maze. You can either turn left, right or head straight on...",
     "answers": ["Left", "Right", "Straight"],
     "failAnswer": 2,
     "left": {
-      "question": "solve puzzle",
-      "answers": ["a", "b"],
-      "passAnswer": 0,
-      "failAnswer": 1
+      "question": "You turn left and come across a mutant geography teacher. He shouts: 'To proceed, answer me this question... \n Lusaka is the capital of what country?''",
+      "answers": ["Uganda", "Malawi", "Zambia", "Lesotho"],
+      "passAnswer": 2
     },
     "right": {
-      "question": "There is a dragon. Do you...",
-      "answers": ["Fight", "Run"],
-      "passAnswer": 0,
-      "failAnswer": 1
+      "question": "You have turned the corner and are standing in front of an angry dragon. Do you...",
+      "answers": ["Fight!", "Run away!"],
+      "passAnswer": 0
     }
   }
 }
