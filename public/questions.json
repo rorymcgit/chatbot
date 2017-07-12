@@ -1,0 +1,21 @@
+{
+  "greeting": "Hello Bot",
+  "questionTree":
+    {
+    "question": "Hello Human, you are in a dark maze. Which route will you take?",
+    "answers": ["Left", "Right", "Straight"],
+    "failAnswer": 2,
+    "left": {
+      "question": "solve puzzle",
+      "answers": ["a", "b"],
+      "passAnswer": 0,
+      "failAnswer": 1
+    },
+    "right": {
+      "question": "There is a dragon. Do you...",
+      "answers": ["Fight", "Run"],
+      "passAnswer": 0,
+      "failAnswer": 1
+    }
+  }
+}
